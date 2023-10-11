@@ -34724,16 +34724,6 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="中国电信 (China Telecom) SOS"
-      carrier_id = "2237"
-      mcc="460"
-      mnc="03"
-      apn="sos"
-      type="emergency"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
   <apn carrier="中国移动 (China Mobile) NET"
       carrier_id = "1435"
       mcc="460"
@@ -34800,6 +34790,16 @@
       mnc="03"
       apn="ims"
       type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="中国电信 (China Telecom) SOS"
+      carrier_id = "2237"
+      mcc="460"
+      mnc="03"
+      apn="sos"
+      type="emergency"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
   />
