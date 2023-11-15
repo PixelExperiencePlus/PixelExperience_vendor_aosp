@@ -34481,7 +34481,7 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="中国移动 (China Mobile) WAP&amp;MMS"
+  <apn carrier="中国移动 (China Mobile) MMS"
       carrier_id = "1435"
       mcc="460"
       mnc="00"
@@ -34496,7 +34496,7 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="中国移动 (China Mobile) NET IMS"
+  <apn carrier="中国移动 (China Mobile) IMS"
       carrier_id = "1435"
       mcc="460"
       mnc="00"
@@ -34516,7 +34516,7 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="中国联通 (China Unicom) WAP&amp;MMS"
+  <apn carrier="中国联通 (China Unicom) MMS"
       carrier_id = "1436"
       mcc="460"
       mnc="01"
@@ -34531,10 +34531,80 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="中国联通 (China Unicom) NET IMS"
+  <apn carrier="中国联通 (China Unicom) IMS"
       carrier_id = "1436"
       mcc="460"
       mnc="01"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="中国移动 (China Mobile) NET"
+      carrier_id = "1435"
+      mcc="460"
+      mnc="02"
+      apn="cmnet"
+      type="default,ia,supl,xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="中国移动 (China Mobile) MMS"
+      carrier_id = "1435"
+      mcc="460"
+      mnc="02"
+      apn="cmwap"
+      proxy="10.0.0.172"
+      port="80"
+      mmsc="http://mmsc.monternet.com"
+      mmsproxy="10.0.0.172"
+      mmsport="80"
+      type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="中国移动 (China Mobile) IMS"
+      carrier_id = "1435"
+      mcc="460"
+      mnc="02"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="中国电信 (China Telecom) NET"
+      carrier_id = "2237"
+      mcc="460"
+      mnc="03"
+      apn="ctnet"
+      type="default,ia,supl,xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="中国电信 (China Telecom) MMS"
+      carrier_id = "2237"
+      mcc="460"
+      mnc="03"
+      apn="ctwap"
+      proxy="10.0.0.200"
+      port="80"
+      mmsc="http://mmsc.vnet.mobi"
+      mmsproxy="10.0.0.200"
+      mmsport="80"
+      type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="中国电信 (China Telecom) IMS"
+      carrier_id = "2237"
+      mcc="460"
+      mnc="03"
       apn="ims"
       type="ims"
       protocol="IPV4V6"
@@ -34554,76 +34624,6 @@
   <apn carrier="中国移动 (China Mobile) NET"
       carrier_id = "1435"
       mcc="460"
-      mnc="02"
-      apn="cmnet"
-      type="default,ia,supl,xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="中国移动 (China Mobile) WAP&amp;MMS"
-      carrier_id = "1435"
-      mcc="460"
-      mnc="02"
-      apn="cmwap"
-      proxy="10.0.0.172"
-      port="80"
-      mmsc="http://mmsc.monternet.com"
-      mmsproxy="10.0.0.172"
-      mmsport="80"
-      type="mms"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="中国移动 (China Mobile) NET IMS"
-      carrier_id = "1435"
-      mcc="460"
-      mnc="02"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="中国电信 (China Telecom) NET"
-      carrier_id = "2237"
-      mcc="460"
-      mnc="03"
-      apn="ctnet"
-      type="default,ia,supl,xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="中国电信 (China Telecom) WAP&amp;MMS"
-      carrier_id = "2237"
-      mcc="460"
-      mnc="03"
-      apn="ctwap"
-      proxy="10.0.0.200"
-      port="80"
-      mmsc="http://mmsc.vnet.mobi"
-      mmsproxy="10.0.0.200"
-      mmsport="80"
-      type="mms"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="中国电信 (China Telecom) NET IMS"
-      carrier_id = "2237"
-      mcc="460"
-      mnc="03"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="中国移动 (China Mobile) NET"
-      carrier_id = "1435"
-      mcc="460"
       mnc="04"
       apn="cmnet"
       type="default,ia,supl,xcap"
@@ -34631,7 +34631,7 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="中国移动 (China Mobile) WAP&amp;MMS"
+  <apn carrier="中国移动 (China Mobile) MMS"
       carrier_id = "1435"
       mcc="460"
       mnc="04"
@@ -34646,7 +34646,7 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="中国移动 (China Mobile) NET IMS"
+  <apn carrier="中国移动 (China Mobile) IMS"
       carrier_id = "1435"
       mcc="460"
       mnc="04"
@@ -34666,7 +34666,7 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="中国移动 (China Mobile) WAP&amp;MMS"
+  <apn carrier="中国移动 (China Mobile) MMS"
       carrier_id = "1435"
       mcc="460"
       mnc="07"
@@ -34681,7 +34681,7 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="中国移动 (China Mobile) NET IMS"
+  <apn carrier="中国移动 (China Mobile) IMS"
       carrier_id = "1435"
       mcc="460"
       mnc="07"
@@ -34701,7 +34701,7 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="中国移动 (China Mobile) WAP&amp;MMS"
+  <apn carrier="中国移动 (China Mobile) MMS"
       carrier_id = "1435"
       mcc="460"
       mnc="08"
@@ -34716,7 +34716,7 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="中国移动 (China Mobile) NET IMS"
+  <apn carrier="中国移动 (China Mobile) IMS"
       carrier_id = "1435"
       mcc="460"
       mnc="08"
@@ -34736,7 +34736,7 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="中国联通 (China Unicom) WAP&amp;MMS"
+  <apn carrier="中国联通 (China Unicom) MMS"
       carrier_id = "1436"
       mcc="460"
       mnc="09"
@@ -34751,7 +34751,7 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="中国联通 (China Unicom) NET IMS"
+  <apn carrier="中国联通 (China Unicom) IMS"
       carrier_id = "1436"
       mcc="460"
       mnc="09"
@@ -34771,7 +34771,7 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="中国电信 (China Telecom) WAP&amp;MMS"
+  <apn carrier="中国电信 (China Telecom) MMS"
       carrier_id = "2237"
       mcc="460"
       mnc="11"
@@ -34786,7 +34786,7 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="中国电信 (China Telecom) NET IMS"
+  <apn carrier="中国电信 (China Telecom) IMS"
       carrier_id = "2237"
       mcc="460"
       mnc="11"
@@ -34861,7 +34861,7 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="中国广电 (CBN) NET IMS"
+  <apn carrier="中国广电 (CBN) IMS"
       mcc="460"
       mnc="15"
       apn="ims"
@@ -34893,7 +34893,7 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="中国广电 (CBN) NET IMS"
+  <apn carrier="中国广电 (CBN) IMS"
       mcc="460"
       mnc="60"
       apn="ims"
