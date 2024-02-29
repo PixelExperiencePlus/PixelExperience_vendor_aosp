@@ -2,6 +2,7 @@
 PRODUCT_PACKAGES += \
     NetworkStackOverlay \
     PixelLauncherCustomOverlay \
+    PixelLauncherIconsOverlay \
     PixelDocumentsUIGoogleOverlay \
     BuiltInPrintServiceOverlay \
     GooglePermissionControllerOverlay \
